@@ -14,7 +14,7 @@ public class MyArrayList {
 		arr = new Object[DEFAULT_CAPACITY];
 	}
 	
-	public MyArrayList(int initialCapacity) throws IllegalArgumentException {
+	public MyArrayList(int initialCapacity) {
 		if (initialCapacity > 0) {
 			arr = new Object[initialCapacity];
 		} else {
